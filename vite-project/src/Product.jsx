@@ -1,10 +1,19 @@
+
+import ProductDetail from './ProductDetail'
+
+
 function Product({price}){
     return(
-        <>
-        <h3>these are the price</h3>
-        <p>Price: {price}</p>
-        {price>3000?<p>Discount 5%</p>:null}
+        <> 
+        <ProductDetail title="SmartPhone" description="A useful tool of modern world."/>
+        <ProductDetail title="Zebronics" description="A Loudspeaker for the parties and occassion."/>
+        <ProductDetail title="Electronics" description="Electronics are highly demanded things."/>
+        <ProductDetail title="Groceries" description="Fresh Grocceries are much important."/>
+        <ProductDetail title="Fishes and Chicken" description="Fresh Grocceries are much important."/>
+
         </>
+
+
     )
 }
 
